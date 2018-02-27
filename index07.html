@@ -1,0 +1,95 @@
+<!Doctype Html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+        <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <!---<script>window.jQuery|| document.write('<script src= "../Assigm07/jquery-3.0.0.min.js"><\/script>');</script> -->
+        <style>
+            button{
+                
+                height: 600px;
+                width: 400px;
+            }
+            label {
+                display: block;
+                margin-bottom: 0.25em;
+                color: #3A497B;
+            }
+            .error{
+                background: red;
+                border: 1px solid #a31f25;
+                padding: 0.5em;
+            }
+            .error label{
+                color: crimson;
+                
+            }
+            .msn{
+                background: #cec;
+                
+            }
+            .msg p{
+                padding-left: 0.2em;
+            }
+        
+        </style>
+    <title>Assigment 07 JQuery</title>
+    </head>
+<body>
+
+    <div id="maindiv">
+        <h1 id="myName"></h1>
+        <img src="image/Donald.png" style="height: 400px; width: 300px;"/>
+   
+        
+    <form id="form">
+        <div id="set_name" class="set">
+        <label>Enter your Name:</label>
+        <input type="text" name="name[]" value="" placeholder="Your Name">
+        </div>
+        <div id="set_phone" class="set">
+        <label>Phone Number:</label>
+        <input type="tel" name="phone[]" value="" placeholder="(xxx) xxx-xxxx">
+        </div>
+        <div id="set_color" class="set">
+        <label>Enter your Favorite Color:</label>
+        <input type="text" name="color[]" value="" placeholder="Your Favorite Color">
+        </div>    
+    
+</form>    
+</div>
+    
+   
+    
+
+<script>
+    $(function(){
+        "use strict"
+        console.log('Welcome to 209'); 
+      
+      });
+    $(function(){
+        'use strict';
+        var $myName=$('#myName');
+        
+        $myName.animate({left:'100px'},"slow");
+        $myName.html("Lesly Valdez");
+    
+    });
+    $('img').click(function(){
+        $('img').fadeOut(1000,'linear');
+        
+    });
+    $(function(){
+        var $
+    })
+
+    
+   
+</script>    
+    
+</body> 
+</html>
